@@ -8,6 +8,8 @@ en:
   solidus_subscriptions:
     subscription:
       actionable_date: "Actionable Date"
+    currency:
+      invalid_code: "is not a valid currency code"
     installment_details:
       out_of_stock: >
         This installment could not be processed because of insufficient
