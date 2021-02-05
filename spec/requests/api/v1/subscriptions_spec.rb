@@ -1,6 +1,10 @@
 RSpec.describe '/api/v1/subscriptions' do
   include SolidusSubscriptions::Engine.routes.url_helpers
 
+  describe 'POST /', skip: 'TODO' do
+    it {}
+  end
+
   describe 'PATCH /:id' do
     context 'when the subscription belongs to the user' do
       context 'with valid params' do
